@@ -2,10 +2,8 @@
   "name": "ferretera",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "npm@11.14.1",
   "engines": {
-    "node": ">=20.17.0",
-    "npm": ">=11.14.1"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",
