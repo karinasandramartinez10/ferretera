@@ -2,6 +2,11 @@
   "name": "ferretera",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@11.14.1",
+  "engines": {
+    "node": ">=20.17.0",
+    "npm": ">=11.14.1"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +14,8 @@
     "lint": "next lint",
     "test": "vitest",
     "test:run": "vitest run",
-    "prepare": "husky"
+    "prepare": "husky",
+    "setup": "npm ci && npm run prepare"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
